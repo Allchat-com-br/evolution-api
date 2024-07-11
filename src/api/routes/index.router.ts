@@ -43,6 +43,7 @@ router
   .get('/', (req, res) => {
     res.status(HttpStatus.OK).json({
       status: HttpStatus.OK,
+      message: 'ok',
       // message: 'Welcome to the Evolution API, it is working!',
       // version: packageJson.version,
       // swagger: !serverConfig.DISABLE_DOCS ? `${req.protocol}://${req.get('host')}/docs` : undefined,
